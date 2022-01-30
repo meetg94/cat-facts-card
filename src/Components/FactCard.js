@@ -30,7 +30,7 @@ export default function MediaCard() {
       
   
     useEffect(() => {
-      fetchData()
+      //fetchData()
     }, [])
 
   return (
@@ -38,7 +38,7 @@ export default function MediaCard() {
     <div>
         <div className="card-container">
             <img className="image-card" src={catPics} />
-            <p>{catFacts}</p>
+            <p className="fact-text">{catFacts}</p>
             <button onClick={fetchData}>Next Fact and Image</button>
         </div>
     </div>

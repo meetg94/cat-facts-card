@@ -1,12 +1,48 @@
+
+
 .card-container {
-    height: 600px;
-    width: 400px;
+    height:650px;
+    width: 600px;
     margin: 0 auto;
     text-align: center;
+    background-color: #8946A6;
+    border-radius: 3px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
 }
 
 .image-card {
+    margin-bottom: 10px;
+    padding-top: 10px;
     border-radius:5px;
-    height: 450px;
-    width: 350px;
+    height: 500px;
+    width: 400px;
+}
+
+.fact-text {
+    text-align: center;
+    background-color: #B762C1;
+    border-radius: 5px;
+    height: 60px;
+    width: 500px;
+    justify-content: center;
+    margin: 0 auto;
+    overflow: scroll;
+    font-family: 'Abel', sans-serif;  
+    font-weight: 700;
+
+}
+
+button {
+    margin-top: 10px;
+    background-color: #EA99D5;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Abel', sans-serif;  ;
+    font-weight: 700;
+}
+
+button:hover {
+    background-color:#FFCDDD;
+    
 }
