@@ -1,4 +1,5 @@
-Cat Facts App.
+Cat Facts App: Bored? Look at cute images of Cats while learning new facts about them.
 
-Made with ReactJS and combining two APIs using Axios.
+Made with ReactJS by combining two APIs and utilizing Axios.
 
+Technologies Used: ReactJS, CSS, API, Axios.
